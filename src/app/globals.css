@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+}
+/* .custom-cursor {
+  position: fixed;
+  top: -10px;
+  left: -10px;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 0, 0, 0.7); 
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference; 
+} */
+@media (max-width: 639px) {
+  .customObject {
+    object-fit: cover;
+  }
+  .custom-pt {
+    padding-top: 5rem !important;
+  }
+  .custom-card {
+    width: 80%;
+  }
+  .custom-center {
+    align-items: center;
+    justify-content: center;
+  }
+  .cusproductcont {
+    justify-content: start;
+    margin-top: 0;
+    padding: 0px;
+  }
+  .mobCust {
+    width: 100%;
+    padding: 0px;
+    margin-top: 10px;
+  }
+  .custom-box {
+    align-items: center;
+  }
+  .custom-footer {
+    margin-top: 3rem;
+  }
+  .custom-map-section {
+    margin-bottom: 4rem;
+  }
+  .footerLogocontainer {
+    display: flex;
+    justify-content: center;
+  }
+  .customImg {
+    height: auto;
+  }
+  .customLeading {
+    line-height: 3rem;
+  }
+  .customTransform {
+    transform: translateY(50px) !important;
+  }
+  .customTransformFilter {
+    transform: translateY(60px) !important;
+  }
+  .custom-gap {
+    row-gap: 4rem;
+  }
+  .custom-title {
+    margin-left: 0px;
+  }
+  .custom-hide {
+    display: none;
+  }
+  .custom-marg {
+    margin-top: 10px;
+  }
+  .custom-space-head {
+    /* margin-top: 2rem; */
+  }
+  .custom-mobile-card {
+    background-color: rgba(255, 255, 255, 0.46); /* #ffffff75 */
+    border-radius: 1rem; /* rounded-2xl */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -4px rgba(0, 0, 0, 0.1); /* shadow-lg */
+    padding: 1rem; /* p-4 */
+  }
+  .logo-mobile {
+    margin-top: 10px;
+  }
+  .custom-ty {
+    margin-top: 7px;
+  }
+  .custom-mar {
+    margin-top: 4rem;
+  }
+  .custom-about-logo {
+    padding: 10px 15px 15px 10px;
+    border-radius: 0px 0px 20px 0px;
+  }
+  .logo-mobile2 {
+    margin-top: 6px;
+  }
+  .custom-mt {
+    margin-top: 4rem;
+  }
+}
